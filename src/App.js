@@ -18,7 +18,7 @@ function App() {
         <div id="page-body">
           <Route path="/" component={HomePage} exact/>
           <Route path="/contact" component={ContactPage} />
-          <Route path="/publication" component={PublicationPage} />
+          <Route path="/publication/:name" component={PublicationPage} />
           <Route path="/publications-list" component={PublicationsListPage} />
           <Route path="/volunteer" component={VolunteerPage} />
         </div>
