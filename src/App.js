@@ -8,11 +8,13 @@ import ContactPage from './pages/ContactPage';
 import PublicationPage from './pages/PublicationPage';
 import PublicationsListPage from './pages/PublicationsListPage';
 import VolunteerPage from './pages/VolunteerPage';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <NavBar />
         <div id="page-body">
           <Route path="/" component={HomePage} exact/>
           <Route path="/contact" component={ContactPage} />
