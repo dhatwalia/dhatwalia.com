@@ -1,75 +1,21 @@
 const publications = [
     {
-        name: 'learn-react',
-        title: 'The Fastest Way to Learn React',
+        name: 'selection-ipl-ensembles-classifier',
+        title: 'Selection of Players and Team for an Indian Premier League Cricket Match Using Ensembles of Classifiers',
         content: [
-            `Welcome! Today we're going to be talking about the fastest way to
-            learn React. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `In this work, we have shown how we can use neural networks and K-Means or Hierarchical clustering in place of clustering algorithms to represent data in a meaningful way to predict the best batsman/bowler to be sent next for a given match condition at an Indian Premier League Cricket Match. We predicted the best bowler/batsman for a given match condition using the match parameters of every ball. We carried out tests using various neural networks ranging from single-layered perceptron to multilayered multi-neuron neural networks, along with a variety of data representations. The neural network with three hidden layers perceptron gave the best results for batsman and bowlers, respectively. These neural networks can produce fast and accurate results within 3 seconds. The activation functions used were ReLu and SoftMax. We used K-Means and hierarchical clustering to generate data. We also predict an ideal team for a match using K-Means Clustering and hierarchical clustering, which found interesting and accurate patterns, constraints.`,
         ]
     }, {
-        name: 'learn-node',
-        title: 'How to Build a Node Server in 10 Minutes',
+        name: 'prediction-ipl-regression',
+        title: 'Prediction of Player Price in IPL Auction Using Machine Learning Regression Algorithms',
         content: [
-            `In this article, we're going to be talking looking at a very quick way
-            to set up a Node.js server. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `This work predicted the cost at which a player can be sold in the Indian Premier League Auction using machine learning-based algorithms. We estimated the players' selling price using their past performance parameters like runs, balls, innings, wickets and matches played. Tests were carried out in various machine learning models like Decision Tree Regressor, K-Nearest Neighbors (KNN), Linear Regression, Stochastic Logistic Regression, Random Forest Regressor and Support Vector Regression (SVR). Among these, SVR and Linear Regression gave the best results for predicting batsman and bowlers, respectively. These algorithms can produce fast and accurate results within 3 seconds, helping auctioneers make quick decisions. We have also considered the inflation factor and mapping the same to the budget during the model's training.`,
         ]
     }, {
-        name: 'my-thoughts-on-resumes',
-        title: 'My Thoughts on Resumes',
+        name: 'jsf-sudoku',
+        title: 'Online Sudoku Generator and Solver for Competitions using Java Server Faces',
         content: [
-            `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `Sudoku is a trendy pass-time game that had gained much popularity when it was published by The Times in London. We have used Java Server Faces (JSF) as a tool for the Full-Stack development of Sudoku as a web browser-based game. By building this project, we had gained a better understanding of the framework. In this work, we present an algorithm for solving the Sudoku problem and a safe way of validating the results keeping scalability in mind.`,
         ]
     },
 ];
