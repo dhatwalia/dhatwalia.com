@@ -32,7 +32,10 @@ const PublicationPage = ({ match }) => {
             <h1>{publication.title}</h1>
             <UpvotesSection publicationName={name} upvotes={publicationInfo.upvotes} setPublicationInfo={setPublicationInfo} />
             {publication.content.map((paragraph, key) => (
-                <p key={ key }>{ paragraph }</p>
+                <div>
+                    <p key={ key }>{ paragraph }</p>
+                    <a class="button" href={ publication.source } target="_blank">Source</a>
+                </div>
             ))}
             <CommentsList comments={publicationInfo.comments} />
             <AddComment publicationName={name} setPublicationInfo={setPublicationInfo} />
