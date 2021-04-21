@@ -3,7 +3,7 @@ body {
   font-size: 18px;
 }
 
-button {
+button, .button {
   padding: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -99,4 +99,39 @@ nav a:hover {
 .comment {
   border-bottom: 2px solid black;
   padding: 16px;
+}
+
+.image-20 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.image-40 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.image-60 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.image-80 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.image-100 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
