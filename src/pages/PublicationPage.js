@@ -3,6 +3,7 @@ import publicationContent from './publication-content';
 import PublicationsList from '../components/PublicationsList';
 import CommentsList from '../components/CommentsList';
 import AddComment from '../components/AddComment';
+import UpvotesSection from '../components/UpvotesSection';
 import NotFoundPage from './NotFoundPage';
 
 const PublicationPage = ({ match }) => {
@@ -29,6 +30,7 @@ const PublicationPage = ({ match }) => {
     return (
         <>
             <h1>{publication.title}</h1>
+            <UpvotesSection publicationName={name} upvotes={publicationInfo.upvotes} setPublicationInfo={setPublicationInfo} />
             {publication.content.map((paragraph, key) => (
                 <p key={ key }>{ paragraph }</p>
             ))}
