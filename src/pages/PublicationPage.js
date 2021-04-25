@@ -35,9 +35,9 @@ const PublicationPage = ({ match }) => {
             {publication.content.map((paragraph, key) => (
                 <div>
                     <p key={ key }>{ paragraph }</p>
-                    <a class="button" href={ publication.source } target="_blank">Source</a>
                 </div>
             ))}
+            <a class="button" href={ publication.source } target="_blank">Source</a>
             <CommentsList comments={publicationInfo.comments} />
             <AddComment publicationName={name} setPublicationInfo={setPublicationInfo} />
             <h3>Other Publications:</h3>
