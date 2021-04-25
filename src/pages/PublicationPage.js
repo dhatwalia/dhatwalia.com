@@ -30,6 +30,7 @@ const PublicationPage = ({ match }) => {
     return (
         <>
             <h1>{publication.title}</h1>
+            <h4>Published on: {publication.date}</h4>
             <UpvotesSection publicationName={name} upvotes={publicationInfo.upvotes} setPublicationInfo={setPublicationInfo} />
             {publication.content.map((paragraph, key) => (
                 <div>
