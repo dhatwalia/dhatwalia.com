@@ -1,8 +1,8 @@
-const publications = [
+const research = [
     {
         name: 'selection-ipl-ensembles-classifier',
         title: 'Selection of Players and Team for an Indian Premier League Cricket Match Using Ensembles of Classifiers',
-        date: "August 02, 2020",
+        date: 'August 02, 2020',
         content: [
             `The Indian Premier League is an annual cricket tournament administered by the Board for Control of Cricket in India. It is a 20 over format of playing cricket introduced in 2003 as a need for a shorter version of the game to counter the falling attendance of spectators. Currently, it is the 6th most attended league globally, and the world’s most attended league as of 2016. `,
             `The participating franchises form their teams by conducting an auction before the tournament from a pool of national and international cricket players of different countries. The auction starts with the ‘marquee’ list, where 16 players in two batches of eight each come up for bidding. The marquee lot is followed by capped and uncapped players: batsmen, all-rounders, wicket-keepers, fast bowlers and spinners. After the players have been presented for bidding, the accelerated process will enable franchises to nominate a set number of players from the remaining ones. The list is submitted on the first day, and the nominated players go up for bidding the next day. Once these players have been presented, the franchises will be asked to submit their wish list from the complete list of players. Those unsold will come up for auction after all the players have been called once. The list of unsold players, however, is drawn up subject to the franchises’ request.`,
@@ -14,11 +14,11 @@ const publications = [
             `Thirdly, the accuracy with which auctioneers can evaluate a player is dependent on their experience in evaluating players, which is also being taken care of by our model by using player historical performance to predict the cost.`,
             `In this work, we have shown how we can use neural networks and K-Means or Hierarchical clustering in place of clustering algorithms to represent data in a meaningful way to predict the best batsman/bowler to be sent next for a given match condition at an Indian Premier League Cricket Match. We predicted the best bowler/batsman for a given match condition using the match parameters of every ball. We carried out tests using various neural networks ranging from single-layered perceptron to multilayered multi-neuron neural networks, along with a variety of data representations. The neural network with three hidden layers perceptron gave the best results for batsman and bowlers, respectively. These neural networks can produce fast and accurate results within 3 seconds. The activation functions used were ReLu and SoftMax. We used K-Means and hierarchical clustering to generate data. We also predict an ideal team for a match using K-Means Clustering and hierarchical clustering, which found interesting and accurate patterns, constraints.`,
         ],
-        source: "https://ieeexplore.ieee.org/document/9198371",
+        source: 'https://ieeexplore.ieee.org/document/9198371',
     }, {
         name: 'prediction-ipl-regression',
         title: 'Prediction of Player Price in IPL Auction Using Machine Learning Regression Algorithms',
-        date: "August 02, 2020",
+        date: 'August 02, 2020',
         content: [
             `Cricket is administered by the Board for Control of Cricket in India(BCCI). The shortened 20-over format of playing cricket was introduced to counter the falling attendance of spectators. Since then, more and more countries have introduced this format of cricket. Currently, the Premier League (IPL) is an annual cricket tournament sixth most attended league globally, and the world's most attended league as of 2016.`,
             `The participating franchises form their teams by conducting an auction before the tournament from a pool of national and international cricket players of different countries. After the players have been presented for bidding, the accelerated process will enable franchises to nominate a set number of players from the remaining ones.`,
@@ -37,11 +37,11 @@ const publications = [
             `We have used the K-Means clustering technique, which can be used on well-separated data. The algorithm starts with random initial centroids with computation of the Euclidean distance from each data point. The closest centroid is the cluster to which a data point is marked. The centroids are then computed using the mean of all the data points belonging to it. This process is continued till the centroids change. Hierarchical clustering starts with each data point as a cluster and then merging the closest ones into one cluster. This cluster is then chosen as a data point, and the parent cluster is formed using it and the other points. This process is continued till the required numbers of clusters are obtained. The final result will be a dendrogram.`,
             `This work predicted the cost at which a player can be sold in the Indian Premier League Auction using machine learning-based algorithms. We estimated the players' selling price using their past performance parameters like runs, balls, innings, wickets and matches played. Tests were carried out in various machine learning models like Decision Tree Regressor, K-Nearest Neighbors (KNN), Linear Regression, Stochastic Logistic Regression, Random Forest Regressor and Support Vector Regression (SVR). Among these, SVR and Linear Regression gave the best results for predicting batsman and bowlers, respectively. These algorithms can produce fast and accurate results within 3 seconds, helping auctioneers make quick decisions. We have also considered the inflation factor and mapping the same to the budget during the model's training.`,
         ],
-        source: "https://ieeexplore.ieee.org/document/9198668",
+        source: 'https://ieeexplore.ieee.org/document/9198668',
     }, {
         name: 'jsf-sudoku',
         title: 'Online Sudoku Generator and Solver for Competitions using Java Server Faces',
-        date: "May 09, 2020",
+        date: 'May 09, 2020',
         content: [
             `The name “Sudoku” originates from Japanese words: “su”, which means “number,” and “doku”, which means “single”. When translated into English, it most accurately means “single numbersonly”. The game gained worldwide popularity in 2004, though when it was published by The Times in London. It has been reported to be the most significant trend since the invention of Rubik’s Cube in the 1980s.`,
             `To win the Sudoku game, one must fill up all the vacant boxes with the allowed range of numbers in the Sudoku puzzle. All the entered numbers must follow specific rules. The fundamental requirement of solved Sudoku is that no row, column or subgrid can contain the same number twice.`,
@@ -51,8 +51,8 @@ const publications = [
             `Worldwide, Sudokus have gained much popularity due to annual Sudoku Championships being organized in locations where there is the scope of growth in the Professional Sudoku solvers community. Due to this rapid growth of Sudoku popularity, there has been a growth in demand for Sudoku generating and solving software. The programing problem is an NP-Complete. Our focus will be on writing software for organizing a free and fair competition.`,
             `Sudoku is a trendy pass-time game that had gained much popularity when it was published by The Times in London. We have used Java Server Faces (JSF) as a tool for the Full-Stack development of Sudoku as a web browser-based game. By building this project, we had gained a better understanding of the framework. In this work, we present an algorithm for solving the Sudoku problem and a safe way of validating the results keeping scalability in mind.`,
         ],
-        source: "https://www.techrxiv.org/articles/preprint/Online_Sudoku_Generator_and_Solver_for_Competitions_using_Java_Server_Faces/12093732/1",
+        source: 'https://www.techrxiv.org/articles/preprint/Online_Sudoku_Generator_and_Solver_for_Competitions_using_Java_Server_Faces/12093732/1',
     },
 ];
 
-export default publications;
+export default research;
