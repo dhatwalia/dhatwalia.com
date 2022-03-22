@@ -21,7 +21,7 @@ const ResearchPage = ({ match }) => {
                     <p key={ key }>{ paragraph }</p>
                 </div>
             ))}
-            <a class="button" href={ research.source } target="_blank">Source</a>
+            <a class="button" href={ research.source } target="_blank" rel="noreferrer">Source</a>
             <h3>Other Research:</h3>
             <ResearchList research={ otherResearch } />
         </>

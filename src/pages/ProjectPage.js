@@ -21,7 +21,7 @@ const ProjectPage = ({ match }) => {
                     <p key={ key }>{ paragraph }</p>
                 </div>
             ))}
-            <a class="button" href={ project.source } target="_blank">See project</a>
+            <a class="button" href={ project.source } target="_blank" rel="noreferrer">See project</a>
             <h3>Other Project:</h3>
             <ProjectList project={ otherProject } />
         </>
