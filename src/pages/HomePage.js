@@ -5,7 +5,7 @@ const HomePage = () => (
         <h1>Prajwal Dhatwalia</h1>
         <img src={process.env.PUBLIC_URL + '/prajwal.jpg'} alt='prajwal-dhatwalia' class="image-60" />
         <p>
-            Hello, world! I am a Full Stack Developer with 1+ years of software development experience with 4+ frameworks for clients across the globe.
+            Hello, world! I am a Full Stack Developer with 7+ years of software development experience with 4+ frameworks for clients across the globe.
         </p>
         <p>
             I love to work with JavaScript, Python, Java and Rust. But I am willing to learn new technologies with the intention to master my skills.
