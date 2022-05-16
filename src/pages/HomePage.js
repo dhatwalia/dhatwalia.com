@@ -2,8 +2,8 @@ import React from 'react';
 
 const HomePage = () => (
     <>
-        <h1>Prajwal Dhatwalia</h1>
-        <img src={process.env.PUBLIC_URL + '/prajwal.jpg'} alt='prajwal-dhatwalia' class="image-60" />
+        <h1>Prajwal</h1>
+        <img src={process.env.PUBLIC_URL + '/prajwal.jpg'} alt='my-pic' class="image-60" />
         <p>
             Hello, world! I am a Full Stack Developer with 7+ years of software development experience with 4+ frameworks for clients across the globe.
         </p>

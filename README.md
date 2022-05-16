@@ -1,4 +1,4 @@
-# Prajwal Dhatwalia
+# Prajwal
 
 ## Available Scripts
 
