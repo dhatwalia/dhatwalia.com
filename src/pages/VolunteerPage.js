@@ -20,6 +20,7 @@ const VolunteerPage = () => (
         </p>
         <a class="button" href="https://www.helpageindia.org/donate/" target="_blank" rel="noreferrer">Donate</a>
         <br/><br/>
+        <hr></hr>
         <img src={process.env.PUBLIC_URL + '/bluesea.jpg'} alt='bluesea-foundation-logo' class="image-100"/>
         <p>            
             Blue Sea Foundation is a Canadian charitable foundation that has been working with other charities to make the world better since 2010. Headquatered in Kitchener, they work exclusively with social service charities who serve the most precarious, marginalized, and neglected people in Canada and around the world.
@@ -41,6 +42,22 @@ const VolunteerPage = () => (
         </p>
         <a class="button" href="http://www.blueseafoundation.org/" target="_blank" rel="noreferrer">Website</a>
         <br/><br/>
+        <hr></hr>
+        <img src={process.env.PUBLIC_URL + '/sickkids.jpg'} alt='bluesea-foundation-logo' class="image-100"/>
+        <p>            
+            SickKids Foundation is a charitable foundation that supports The Hospital for Sick Children in Toronto, Canada. They believe that fighting for the health and wellbeing of children is one of the most powerful ways to improve society. They are committed to fostering an inclusive, accessible environment, where all individuals feel valued, respected and supported.
+        </p>
+        <figure>
+        <img src={process.env.PUBLIC_URL + '/sickkids-cheque.jpg'} alt='homeless-person' class="image-80" />
+        <figcaption>Ontario Schools Battery Recycling Challenge(OSBRC) gives a $1769.36 check to SickKids Foundation in Toronto dated June 10, 2019.</figcaption>
+        </figure>
+        <p>
+            Their goal is to save lives, find new cures and provide world-class care. They are also fighting against the limits of a 70-year-old hospital where parts of the building dont meet modern building codes. Their most vulnerable patients are crammed into overcrowded rooms. Their our outdated spaces cant accommodate the weight of an MRI machine. Thats why they are trying to raise $1.5 billion dollars in donations. They need you on our side in the SickKids VS Limits Campaign, the biggest fundraising campaign in Canadian health-care history, to help build a brand-new hospital.
+ 
+        </p>
+        <a class="button" href="https://secure.sickkidsfoundation.com/donate?_ga=2.74558546.1389146586.1663201382-1329499667.1663201382" target="_blank" rel="noreferrer">Donate</a>
+        <br/><br/>
+        <hr></hr>
     </>
 );
 
