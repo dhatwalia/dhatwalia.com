@@ -46,7 +46,23 @@ const project = [
             `Generative Adversarial Network(GAN) is a neural network which simultaneously train two models: a generator that cap- tures the data distribution, and a discriminator that determines the probability that a sample came from the training data [3]. This discriminator can be trained from real samples and generate fake images using the generator.`,
             `We can use MNIST database of handwritten digits to solve the problem of training our discriminator. It has 60,000 training and 10,000 testing data samples. The data is publicly available and free to use in keras python library.`,
         ],
-        source: 'https://github.com/dhatwalia/sudoku-solver',
+        source: 'https://github.com/dhatwalia/captcha_gen',
+    },
+    {
+        name: 'auto-man-sys',
+        title: 'Automobile Management System',
+        skills: 'PHP, MySQL, HTML, CSS',
+        content: [
+            `Customers often don't have a convenient means to find a dealer that will sell the particular model of vehicle that they want. Having a database of automobiles will help them choose from a list of dealers that sell that particular model of vehicle. After booking the vehicle and making the payment, customers often don't have any reliable means for keeping track of how much progress has been made for the order that they have placed. They may at times rely on phone numbers to know where their vehicle is in the process of manufacturing, within the factory.`,
+            `The aim of our project is to allow customers to conveniently book vehicles for purchase and track the progress made in the factory. This will be done through a web based application that will be connected to a database.`,
+            `The customer will be able to place an order for a particular brand and model of vehicle. He/she can choose the color, no. of cylinders, transmission type for the vehicle of their choice and set a deadline for this vehicle to be delivered. Once the dealer is chosen and the specifications for the order have been provided, the database will store the order and vehicle details.`,
+            `The dealer can update the cost of the vehicle. He/she decides the default price for a certain brand and model during registration. It is up to the dealer to decide whether the order is feasible or not. If it's not feasible, the dealer can delete the order.`,
+            `The factory from time to time can update the status of the vehicle so that the customer can keep track of where the vehicle is in the process of manufacturing for the customer's particular vehicle.`,
+            `Using our database, customers will be able to conveniently find a dealer to book the particular model of vehicle that they want. After booking, the customers will have a reliable way for keeping track of the progress made for each order that the customer had placed.`,
+            `This will save the customer's time and money in looking for a dealer for a model of vehicle of customer's choice. This project will also make it easier for the customer to track the progress made in the factory for their particular order.`,
+            `In future, this HTML-PHP based webpages can be upgraded to dynamically calculate the price of the variant that the customer wants. A payment gateway can also be attached with it so that the customers can make payment for it online and hence avoid having to go to the dealer.`,
+        ],
+        source: 'https://github.com/dhatwalia/auto-man-sys',
     },
 ];
 
