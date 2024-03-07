@@ -2,6 +2,7 @@ import React from 'react';
 
 const HomePage = () => (
     <>
+        <br></br>
         <h1>Prajwal</h1>
         <img src={process.env.PUBLIC_URL + '/prajwal.jpg'} alt='my-pic' class="image-60" />
         <p>
@@ -13,6 +14,8 @@ const HomePage = () => (
         <p>
             I write my code in an organized, optimized and foolproof manner, keeping maintainability in mind. I use a hybrid of high-focus solo programming with collaborative teamwork for working on challenging projects. In a team with great diversity, I will learn from the passionate and experienced and mentor the energetic and curious.
         </p>
+        <h2>Share this website</h2>
+        <img src={process.env.PUBLIC_URL + '/qr.png'} alt='qr-code' class="image-40" />
     </>
 );
 
