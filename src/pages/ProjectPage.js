@@ -7,23 +7,25 @@ const ProjectPage = ({ match }) => {
     const name = match.params.name;
     const project = projectContent.find(project => project.name === name);
 
-    if (!project) return <NotFoundPage/>
+    if (!project) return <NotFoundPage />
 
     const otherProject = projectContent.filter(project => project.name !== name);
 
 
     return (
         <>
-            <h1>{project.title}</h1>
-            <h4>Tech. Skills: {project.skills}</h4>
-            {project.content.map((paragraph, key) => (
-                <div>
-                    <p key={ key }>{ paragraph }</p>
-                </div>
-            ))}
-            <a class="button" href={ project.source } target="_blank" rel="noreferrer">See project</a>
-            <h3>Other Project:</h3>
-            <ProjectList project={ otherProject } />
+            <div class="page-content">
+                <h1>{project.title}</h1>
+                <h4>Tech. Skills: {project.skills}</h4>
+                {project.content.map((paragraph, key) => (
+                    <div>
+                        <p key={key}>{paragraph}</p>
+                    </div>
+                ))}
+                <a class="button" href={project.source} target="_blank" rel="noreferrer">See project</a>
+                <h3>Other Project:</h3>
+                <ProjectList project={otherProject} />
+            </div>
         </>
     );
 };

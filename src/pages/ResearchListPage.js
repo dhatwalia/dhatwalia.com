@@ -4,8 +4,10 @@ import ResearchList from '../components/ResearchList';
 
 const ResearchListPage = () => (
     <>
-        <h1>Research</h1>
-        <ResearchList research={researchContent} />
+        <div class="page-content">
+            <h1>Research</h1>
+            <ResearchList research={researchContent} />
+        </div>
     </>
 );
 
