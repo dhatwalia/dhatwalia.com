@@ -9,7 +9,7 @@ const ContactPage = () => (
                 <tr>
                     <td class="tile">
                         <a href="https://calendly.com/dhatwalia">
-                            <img src={process.env.PUBLIC_URL + "/icons/calendar.png"} class="icon" alt="calendly" />
+                            <img src={process.env.PUBLIC_URL + "/icons/appointment.png"} class="icon" alt="calendly" />
                         </a>
                         <br />
                         Book an appointment
