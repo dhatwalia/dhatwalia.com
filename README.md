@@ -26,4 +26,4 @@ This pushes the annotated tag created from the previous command to github.
 
 ### `npm run deploy`
 
-Prepares the site for deployment. This alone is sufficient to update the website.
+Prepares the site for deployment. This alone is sufficient to update the website. It is recommended to update the version number in package.json before each deployment.
