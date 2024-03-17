@@ -20,7 +20,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div>
         <NavBar />
         <div id="page-body">
