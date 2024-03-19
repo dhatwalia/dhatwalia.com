@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.scss';
+import ImageButton from '../components/ImageButton';
 
 const ContactPage = () => (
     <>
@@ -8,46 +9,34 @@ const ContactPage = () => (
             <table width="100%" class="social">
                 <tr>
                     <td class="tile">
-                        <a href="https://calendly.com/dhatwalia">
-                            <img src={process.env.PUBLIC_URL + "/icons/appointment.png"} class="icon" alt="calendly" />
-                        </a>
+                        <ImageButton href="https://calendly.com/dhatwalia" icon="appointment" />
                         <br />
                         Book an appointment
                     </td>
                     <td class="tile">
-                        <a href="mailto:dh.prajwal@gmail.com">
-                            <img src={process.env.PUBLIC_URL + "/icons/email.png"} class="icon" alt="email" />
-                        </a>
+                        <ImageButton href="mailto:dh.prajwal@gmail.com" icon="email" />
                         <br />
                         Email
                     </td>
                     <td class="tile">
-                        <a href="https://www.facebook.com/dh.prajwal">
-                            <img src={process.env.PUBLIC_URL + "/icons/facebook.png"} class="icon" alt="facebook" />
-                        </a>
+                        <ImageButton href="https://www.facebook.com/dh.prajwal" icon="facebook" />
                         <br />
                         Facebook
                     </td>
                 </tr>
                 <tr>
                     <td class="tile">
-                        <a href="http://github.com/dhatwalia">
-                            <img src={process.env.PUBLIC_URL + "/icons/github.png"} class="icon" alt="github" />
-                        </a>
+                        <ImageButton href="http://github.com/dhatwalia" icon="github" />
                         <br />
                         Github
                     </td>
                     <td class="tile">
-                        <a href="https://www.linkedin.com/in/prajwal-dhatwalia/">
-                            <img src={process.env.PUBLIC_URL + "/icons/linkedin.png"} class="icon" alt="linkedin" />
-                        </a>
+                        <ImageButton href="https://www.linkedin.com/in/prajwal-dhatwalia/" icon="linkedin" />
                         <br />
                         LinkedIn
                     </td>
                     <td class="tile">
-                        <a href="http://twitter.com/dhatwalia97">
-                            <img src={process.env.PUBLIC_URL + "/icons/twitter.png"} class="icon" alt="twitter" />
-                        </a>
+                        <ImageButton href="http://twitter.com/dhatwalia97" icon="twitter" />
                         <br />
                         X (Twitter)
                     </td>

@@ -1,3 +1,4 @@
+import Button from '../components/Button';
 import React from 'react';
 
 const VolunteerPage = () => (
@@ -18,7 +19,7 @@ const VolunteerPage = () => (
             <p>
                 It provides elderly relief through various interventions for the elderly. It features one of the most extensive mobile healthcare programs through its Mobile Healthcare Units in India. It provides free healthcare services to destitute elders. It also helps elders earn their livelihood through the formation of Elder-Self-Help Groups, making them self-reliant. It conducts cataract surgeries to restore their sight. It's Support-a-Gran program looks after their basic needs. It also features Elder Helplines across India. It provides relief and rehabilitation for elders post disasters.
             </p>
-            <a class="button" href="https://www.helpageindia.org/donate/" target="_blank" rel="noreferrer">Donate</a>
+            <Button href="https://www.helpageindia.org/donate/">Donate</Button>
             <br /><br />
             <hr></hr>
             <img src={process.env.PUBLIC_URL + '/bluesea.jpg'} alt='bluesea-foundation-logo' class="image-100" />
@@ -40,7 +41,7 @@ const VolunteerPage = () => (
             <p>
                 They are driven by the suffering and need in our world, and believe that the best way to make a difference is to build your charity's fundraising and financial health. What powers their efforts is the deep desire to see charities better funded and thriving as a force in our communities.
             </p>
-            <a class="button" href="http://www.blueseafoundation.org/" target="_blank" rel="noreferrer">Website</a>
+            <Button href="http://www.blueseafoundation.org/">Website</Button>
             <br /><br />
             <hr></hr>
             <img src={process.env.PUBLIC_URL + '/sickkids.jpg'} alt='bluesea-foundation-logo' class="image-100" />
@@ -55,7 +56,7 @@ const VolunteerPage = () => (
                 Their goal is to save lives, find new cures and provide world-class care. They are also fighting against the limits of a 70-year-old hospital where parts of the building dont meet modern building codes. Their most vulnerable patients are crammed into overcrowded rooms. Their our outdated spaces cant accommodate the weight of an MRI machine. Thats why they are trying to raise $1.5 billion dollars in donations. They need you on our side in the SickKids VS Limits Campaign, the biggest fundraising campaign in Canadian health-care history, to help build a brand-new hospital.
 
             </p>
-            <a class="button" href="https://secure.sickkidsfoundation.com/donate?_ga=2.74558546.1389146586.1663201382-1329499667.1663201382" target="_blank" rel="noreferrer">Donate</a>
+            <Button href="https://secure.sickkidsfoundation.com/donate?_ga=2.74558546.1389146586.1663201382-1329499667.1663201382">Donate</Button>
             <br /><br />
             <hr></hr>
         </div>

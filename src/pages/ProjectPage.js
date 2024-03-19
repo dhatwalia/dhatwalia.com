@@ -1,3 +1,4 @@
+import Button from '../components/Button';
 import React from 'react';
 import projectContent from '../content/project';
 import ProjectList from '../components/ProjectList';
@@ -22,7 +23,7 @@ const ProjectPage = ({ match }) => {
                         <p key={key}>{paragraph}</p>
                     </div>
                 ))}
-                <a class="button" href={project.source} target="_blank" rel="noreferrer">See project</a>
+                <Button href={project.source}>See project</Button>
                 <h3>Other Project:</h3>
                 <ProjectList project={otherProject} />
             </div>
