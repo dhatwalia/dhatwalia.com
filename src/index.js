@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './index.scss';
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
 import ResearchPage from './pages/ResearchPage';
