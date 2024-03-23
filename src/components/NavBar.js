@@ -5,6 +5,7 @@ import ScrollToTop from './ScrollToTop';
 const NavBar = () => (
     <nav>
         <ul>
+            <img src={process.env.PUBLIC_URL + '/arrow.png'} alt='arrow' class="arrow" />
             <li>
                 <Link to="/">Home<ScrollToTop /></Link>
             </li>
@@ -20,6 +21,7 @@ const NavBar = () => (
             <li>
                 <Link to="/contact">Contact<ScrollToTop /></Link>
             </li>
+            <span>&#x2007;</span>
         </ul>
     </nav>
 );

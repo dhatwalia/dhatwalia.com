@@ -76,6 +76,18 @@ nav a:hover {
   color: black;
 }
 
+.arrow {
+  // Arrow is visible only on small screens
+  @media screen and (min-width: 512px) {
+    display: none;
+  }
+
+  position: fixed;
+  padding-top: 12px;
+  right: 0;
+  width: 25px;
+}
+
 .list-item {
   text-decoration: none;
   color: black;
