@@ -16,7 +16,7 @@ const ProjectPage = ({ match }) => {
     return (
         <>
             <div class="page-content">
-                <h1>{project.title}</h1>
+                <h2>{project.title}</h2>
                 <h4>Tech. Skills: {project.skills}</h4>
                 {project.content.map((paragraph, key) => (
                     <div>

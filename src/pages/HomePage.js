@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = () => (
     <>
         <div class="page-content">
-            <h1>Prajwal</h1>
+            <h1>Prajwal Dhatwalia</h1>
             <img src={process.env.PUBLIC_URL + '/prajwal.jpg'} alt='my-pic' class="image-60" /> 
             <p>
                 Hello, world! I am a Full Stack Developer with 5+ years of experience in FinTech, CryptoTech, MarTech and Telematics using MERN stack, Machine Learning and Software Engineering.

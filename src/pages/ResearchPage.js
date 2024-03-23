@@ -16,7 +16,7 @@ const ResearchPage = ({ match }) => {
     return (
         <>
             <div class="page-content">
-                <h1>{research.title}</h1>
+                <h2>{research.title}</h2>
                 <h4>Published on: {research.date}</h4>
                 {research.content.map((paragraph, key) => (
                     <div>
