@@ -1,6 +1,6 @@
 import Button from '../components/Button';
 import React from 'react';
-import projectContent from '../content/project';
+import projectContent from '../content/projects';
 import ProjectList from '../components/ProjectList';
 import NotFoundPage from './NotFoundPage';
 

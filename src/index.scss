@@ -81,7 +81,14 @@ nav a:hover {
   color: black;
 }
 
-.arrow {
+.theme-icon {
+  height: 25px;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.arrow-icon {
   // Arrow is visible only on small screens
   @media screen and (min-width: 560px) {
     display: none;
@@ -91,13 +98,6 @@ nav a:hover {
   padding-top: 12px;
   right: 0;
   width: 25px;
-}
-
-.theme {
-  height: 25px;
-  vertical-align: middle;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .list-item {
