@@ -1,0 +1,24 @@
+.social {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .icon {
+    width: 50%;
+  }
+  
+  .icon.pointer {
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    transform: scale(0.9);
+  }
+  
+  .tile {
+    width: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+  }
+  

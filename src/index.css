@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .arrow-icon {
-  // Arrow is visible only on small screens
+  /* Arrow is visible only on small screens */
   @media screen and (min-width: 560px) {
     display: none;
   }

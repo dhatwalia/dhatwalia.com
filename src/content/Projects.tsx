@@ -1,4 +1,4 @@
-const project = [
+const projects = [
     {
         name: 'insurance-advisor',
         title: 'Insurance Advisor Software',
@@ -6,7 +6,7 @@ const project = [
         content: [
             `The Insurance advisor software was designed to collect information about the user’s needs and history and suggest suitable insurance plans. The software is consumer-centric because it prioritizes ample coverage over the price of insurance. It may not guarantee the cheapest coverage, but it will guarantee that the consumer has as much coverage as required with a few extra dollars. The goal of this research is to ensure that consumers have adequate coverage when filing for insurance claims while allowing users to pick low-cost insurance policies. `,
             `Types of insurance provided include Automobile Insurance, House Insurance, Term Life Insurance, Disability Insurance, Health Insurance and Umbrella Policy. The software was implemented in Django with Python backend along with the MySQL database. We used Linear regression, Ridge regression, Bayesian Ridge regression, Lasso Regression, Lasso LARS regression and a deep neural network with four hidden layers, Decision Tree Regression, Ada Boost Regression, Gradient Boosting Regression, XG Boost Regression, Random Forest  Regression, Extra Tree Regression, Support Vector Regression, K Nearest Neighbors Regression, Bagging Regression and Voting Regression to predict the insurance premium based on the user’s health. Of all the methods used, Voting Regression with an ensemble of two Gradient Boosting Regressession models gave the most negligible Mean Absolute Error(MAE).`,
-            `The software that targets citizens of Ontario, Canada who want to purchase private insurance. But in the future, the software can be updated to provide insurance as per regulations of individual provinces and possibly of other countries as well. This will require keeping track of the minimum insurance requirements of each province and country by law.`, 
+            `The software that targets citizens of Ontario, Canada who want to purchase private insurance. But in the future, the software can be updated to provide insurance as per regulations of individual provinces and possibly of other countries as well. This will require keeping track of the minimum insurance requirements of each province and country by law.`,
         ],
         source: 'https://github.com/dhatwalia/insurance',
     },
@@ -66,4 +66,4 @@ const project = [
     },
 ];
 
-export default project;
+export default projects;

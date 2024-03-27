@@ -1,4 +1,4 @@
-const research = [
+const researches = [
     {
         name: 'selection-ipl-ensembles-classifier',
         title: 'Selection of Players and Team for an Indian Premier League Cricket Match Using Ensembles of Classifiers',
@@ -55,4 +55,4 @@ const research = [
     },
 ];
 
-export default research;
+export default researches;

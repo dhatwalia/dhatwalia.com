@@ -1,14 +1,12 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import ToggleTheme from './ToggleTheme';
 
-const NavBar = () => (
-    <nav>
+const Navbar = () => {
+    return <nav>
         <ul>
-            <img src={process.env.PUBLIC_URL + '/arrow.png'} alt='arrow' class="arrow-icon" />
             <li>
-                <img src={process.env.PUBLIC_URL + '/theme.png'} alt='theme' class="theme-icon" onClick={ToggleTheme} />
+                <img src={'/theme.png'} alt='theme' className="theme-icon" onClick={ToggleTheme} />
             </li>
             <li>
                 <Link to="/">Home<ScrollToTop /></Link>
@@ -26,8 +24,9 @@ const NavBar = () => (
                 <Link to="/contact">Contact<ScrollToTop /></Link>
             </li>
             <span>&#x2007;</span>
+            <img src={'/arrow.png'} alt='arrow' className="arrow-icon" />
         </ul>
-    </nav>
-);
+    </nav>;
+};
 
-export default NavBar;
+export default Navbar;
