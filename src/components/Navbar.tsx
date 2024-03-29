@@ -5,6 +5,7 @@ import ToggleTheme from './ToggleTheme';
 const Navbar = () => {
     return <nav>
         <ul>
+            <img src={'/arrow.png'} alt='arrow' className="arrow-icon" />
             <li>
                 <img src={'/theme.png'} alt='theme' className="theme-icon" onClick={ToggleTheme} />
             </li>
@@ -24,7 +25,6 @@ const Navbar = () => {
                 <Link to="/contact">Contact<ScrollToTop /></Link>
             </li>
             <span>&#x2007;</span>
-            <img src={'/arrow.png'} alt='arrow' className="arrow-icon" />
         </ul>
     </nav>;
 };
