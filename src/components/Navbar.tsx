@@ -1,13 +1,20 @@
 import { Link } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import ToggleTheme from './ToggleTheme';
+import { useState } from "react";
+import './Navbar.css'
 
 const Navbar = () => {
+    const [isDarkTheme, setIsDarkTheme] = useState(true);
+
     return <nav>
         <ul>
-            <img src={'/arrow.png'} alt='arrow' className="arrow-icon" />
+            <img src={'/arrow.gif'} alt='arrow' className="arrow-icon" />
             <li>
-                <img src={'/theme.png'} alt='theme' className="theme-icon" onClick={ToggleTheme} />
+                <img src={isDarkTheme ? '/theme2.png' : '/theme1.png'} alt='theme' className="theme-icon" onClick={() => {
+                    setIsDarkTheme(!isDarkTheme);
+                    ToggleTheme();
+                }} />
             </li>
             <li>
                 <Link to="/">Home<ScrollToTop /></Link>

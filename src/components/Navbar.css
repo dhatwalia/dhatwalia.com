@@ -1,0 +1,64 @@
+@import url('../index.css');
+
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background: var(--secondary);
+  white-space: nowrap;
+  overflow: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: bold;
+  padding: 16px 16px;
+}
+
+nav a:hover {
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+.theme-icon {
+  height: 25px;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.arrow-icon {
+  /* Arrow is visible only on small screens */
+  @media screen and (min-width: 560px) {
+    display: none;
+  }
+
+  position: fixed;
+  padding-top: 10px;
+  right: 0;
+  width: 45px;
+}
+
+.list-item {
+  text-decoration: none;
+  color: var(--primary);
+  padding: 16px 0 0 0;
+}
+
+.list-item p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid var(--primary);
+}

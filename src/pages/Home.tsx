@@ -10,7 +10,7 @@ const Home = () => {
             Hello, world! I am a Software Engineer with multiple years of experience in FinTech, CryptoTech, MarTech and Telematics using MERN stack, Machine Learning and Software Engineering.
         </p>
         <p>
-            I love to work with Rust, Typescript, Python, Java and C++.
+            I love to work with Typescript, Python, Java, Rust and C++.
         </p>
         <p>
             I can solve your problems with high throughput, scalable and maintainable technologies. I can lead development and wear multiple hats with product, design, development, testing, deployment and support teams in a collaborative environment. In a team with great diversity, I will learn from the passionate and experienced and mentor the energetic and curious.
