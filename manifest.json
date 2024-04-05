@@ -1,6 +1,7 @@
 {
   "short_name": "Prajwal",
-  "name": "Prajwal Dhatwalia's react based portfolio website",
+  "name": "Prajwal Dhatwalia",
+  "description": "Prajwal Dhatwalia's react based portfolio",
   "icons": [
     {
       "src": "favicon.ico",

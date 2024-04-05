@@ -1,0 +1,13 @@
+https://dhatwalia.github.io/?/
+https://dhatwalia.github.io/?/project-list
+https://dhatwalia.github.io/?/project/insurance-advisor
+https://dhatwalia.github.io/?/project/optimal-hospital
+https://dhatwalia.github.io/?/project/jsf-sudoku-solver
+https://dhatwalia.github.io/?/project/gan-captcha-gen
+https://dhatwalia.github.io/?/project/auto-man-sys
+https://dhatwalia.github.io/?/research-list
+https://dhatwalia.github.io/?/research/selection-ipl-ensembles-classifier
+https://dhatwalia.github.io/?/research/prediction-ipl-regression
+https://dhatwalia.github.io/?/research/jsf-sudoku
+https://dhatwalia.github.io/?/volunteer
+https://dhatwalia.github.io/?/contact
