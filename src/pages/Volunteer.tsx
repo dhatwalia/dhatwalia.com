@@ -1,9 +1,10 @@
 import Button from '../components/Button';
+import '../styles/Image.css';
 
 const Volunteer = () => {
     return <div className="page-content">
         <h1>Volunteer</h1>
-        <img src={'/helpage-india.png'} alt='help-age-india-logo' className="image-100" />
+        <img src={'/volunteer/helpage-india.png'} alt='help-age-india-logo' className="image-100" />
         <p>
             HelpAge India is a charity in India that has worked with and for disadvantaged elderly for nearly four decades. It has been running in India since 1978. There is an estimated 106 million elderly in India. HelpAge advocates for their needs, such as Universal Pension, quality healthcare and abuse faced by senior citizens. It advocates for elder-friendly policies and works towards their implementation. It also works with Senior Citizens Associations to understand the needs of the disadvantaged elderly by working with them.
         </p>
@@ -11,7 +12,7 @@ const Volunteer = () => {
             The aim is to help elders live active, dignified and healthier lives. HelpAge's focus over the years has moved from Welfare to Development.
         </p>
         <figure>
-            <img src={'/helping-elders.jpg'} alt='covid19-relief-india' className="image-80" />
+            <img src={'/volunteer/helping-elders.jpg'} alt='covid19-relief-india' className="image-80" />
             <figcaption>Distribution of family Survival Kits for senior citizens in Kannigapuram, Chennai, India during COVID-19 pandemic.</figcaption>
         </figure>
         <p>
@@ -20,7 +21,7 @@ const Volunteer = () => {
         <Button href="https://www.helpageindia.org/donate/">Donate</Button>
         <br /><br />
         <hr></hr>
-        <img src={'/bluesea.jpg'} alt='bluesea-foundation-logo' className="image-100" />
+        <img src={'/volunteer/bluesea.jpg'} alt='bluesea-foundation-logo' className="image-100" />
         <p>
             Blue Sea Foundation is a Canadian charitable foundation that has been working with other charities to make the world better since 2010. Headquatered in Kitchener, they work exclusively with social service charities who serve the most precarious, marginalized, and neglected people in Canada and around the world.
         </p>
@@ -33,7 +34,7 @@ const Volunteer = () => {
             </ol>
         </p>
         <figure>
-            <img src={'/homeless.jpg'} alt='homeless-person' className="image-80" />
+            <img src={'/volunteer/homeless.jpg'} alt='homeless-person' className="image-80" />
             <figcaption>A helpless homeless person braving the harsh winter.</figcaption>
         </figure>
         <p>
@@ -42,12 +43,12 @@ const Volunteer = () => {
         <Button href="http://www.blueseafoundation.org/">Website</Button>
         <br /><br />
         <hr></hr>
-        <img src={'/sickkids.jpg'} alt='bluesea-foundation-logo' className="image-100" />
+        <img src={'/volunteer/sickkids.jpg'} alt='bluesea-foundation-logo' className="image-100" />
         <p>
             SickKids Foundation is a charitable foundation that supports The Hospital for Sick Children in Toronto, Canada. They believe that fighting for the health and wellbeing of children is one of the most powerful ways to improve society. They are committed to fostering an inclusive, accessible environment, where all individuals feel valued, respected and supported.
         </p>
         <figure>
-            <img src={'/sickkids-cheque.jpg'} alt='homeless-person' className="image-80" />
+            <img src={'/volunteer/sickkids-cheque.jpg'} alt='homeless-person' className="image-80" />
             <figcaption>Ontario Schools Battery Recycling Challenge(OSBRC) gives a $1769.36 check to SickKids Foundation in Toronto dated June 10, 2019.</figcaption>
         </figure>
         <p>

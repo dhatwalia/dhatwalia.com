@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import ToggleTheme from './ToggleTheme';
 import { useState } from "react";
-import './Navbar.css'
+import '../styles/Navbar.css';
 
 const Navbar = () => {
     const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -31,6 +31,8 @@ const Navbar = () => {
             <li>
                 <Link to="/contact">Contact<ScrollToTop /></Link>
             </li>
+            <span>&#x2007;</span>
+            <span>&#x2007;</span>
             <span>&#x2007;</span>
         </ul>
     </nav>;

@@ -1,6 +1,6 @@
 import reactLogo from '../assets/react.svg'
 import typescriptLogo from '../assets/typescript.svg'
-import './Home.css'
+import '../styles/Home.css'
 
 const Home = () => {
     return <div className="page-content">

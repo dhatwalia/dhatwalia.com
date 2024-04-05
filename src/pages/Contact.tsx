@@ -1,5 +1,5 @@
-import './Contact.css';
-import ImageButton from '../components/ImageButton';
+import '../styles/Contact.css';
+import ContactButton from '../components/ContactButton';
 
 const Contact = () => {
     return <div className="page-content">
@@ -7,34 +7,34 @@ const Contact = () => {
         <table width="100%" className="social">
             <tr>
                 <td className="tile">
-                    <ImageButton href="https://calendly.com/dhatwalia" icon="appointment" />
+                    <ContactButton href="https://calendly.com/dhatwalia" icon="appointment" />
                     <br />
                     Book an appointment
                 </td>
                 <td className="tile">
-                    <ImageButton href="mailto:dh.prajwal@gmail.com" icon="email" />
+                    <ContactButton href="mailto:dh.prajwal@gmail.com" icon="email" />
                     <br />
                     Email
                 </td>
                 <td className="tile">
-                    <ImageButton href="https://www.facebook.com/dh.prajwal" icon="facebook" />
+                    <ContactButton href="https://www.facebook.com/dh.prajwal" icon="facebook" />
                     <br />
                     Facebook
                 </td>
             </tr>
             <tr>
                 <td className="tile">
-                    <ImageButton href="http://github.com/dhatwalia" icon="github" />
+                    <ContactButton href="http://github.com/dhatwalia" icon="github" />
                     <br />
                     Github
                 </td>
                 <td className="tile">
-                    <ImageButton href="https://www.linkedin.com/in/prajwal-dhatwalia/" icon="linkedin" />
+                    <ContactButton href="https://www.linkedin.com/in/prajwal-dhatwalia/" icon="linkedin" />
                     <br />
                     LinkedIn
                 </td>
                 <td className="tile">
-                    <ImageButton href="http://twitter.com/dhatwalia97" icon="twitter" />
+                    <ContactButton href="http://twitter.com/dhatwalia97" icon="twitter" />
                     <br />
                     X (Twitter)
                 </td>
