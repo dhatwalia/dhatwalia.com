@@ -1,8 +1,8 @@
 {
   "homepage": "http://dhatwalia.github.io",
   "name": "prajwal",
-  "description": "Prajwal Dhatwalia's react based portfolio website",
-  "version": "5.2",
+  "description": "Prajwal Dhatwalia's react based portfolio",
+  "version": "5.3",
   "private": true,
   "proxy": "http://localhost:8000/",
   "type": "module",
