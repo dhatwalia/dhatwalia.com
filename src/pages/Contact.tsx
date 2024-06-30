@@ -17,21 +17,21 @@ const Contact = () => {
                     Email
                 </td>
                 <td className="tile">
-                    <ContactButton href="https://www.facebook.com/dh.prajwal" icon="facebook" />
-                    <br />
-                    Facebook
-                </td>
-            </tr>
-            <tr>
-                <td className="tile">
                     <ContactButton href="http://github.com/dhatwalia" icon="github" />
                     <br />
                     Github
                 </td>
+            </tr>
+            <tr>
                 <td className="tile">
                     <ContactButton href="https://www.linkedin.com/in/prajwal-dhatwalia/" icon="linkedin" />
                     <br />
                     LinkedIn
+                </td>
+                <td className="tile">
+                    <ContactButton href="https://stackoverflow.com/users/8865811/prajwal" icon="stackoverflow" />
+                    <br />
+                    Stackoverflow
                 </td>
                 <td className="tile">
                     <ContactButton href="http://twitter.com/dhatwalia97" icon="twitter" />
